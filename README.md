@@ -1,9 +1,7 @@
 # XYZ Reader project in Udacity's Android Nanodegree.
 
-<img src="https://user-images.githubusercontent.com/1282659/40888581-f8ccb11e-671e-11e8-8c36-1622fc6b7e3c.png" width="200"><img src="https://user-images.githubusercontent.com/1282659/40888580-f8b909e8-671e-11e8-9fac-1b543f7e0e87.png" width="200">
-
-<img src="https://user-images.githubusercontent.com/1282659/40891661-8f4996b8-674f-11e8-96f7-12589e3361b8.png" width="200">
-<img src="https://user-images.githubusercontent.com/1282659/40891662-8f5cd3f4-674f-11e8-9ab4-ab0b8f43c3e0.png" width="200">
+<img src="https://user-images.githubusercontent.com/1282659/40888581-f8ccb11e-671e-11e8-8c36-1622fc6b7e3c.png" width="200"><img src="https://user-images.githubusercontent.com/1282659/40891661-8f4996b8-674f-11e8-96f7-12589e3361b8.png" width="400">
+<img src="https://user-images.githubusercontent.com/1282659/40888580-f8b909e8-671e-11e8-9fac-1b543f7e0e87.png" width="200"><img src="https://user-images.githubusercontent.com/1282659/40891662-8f5cd3f4-674f-11e8-9ab4-ab0b8f43c3e0.png" width="400">
 
 ## Prerequisite
 You should have the skills you need to complete this app after completing courses:
