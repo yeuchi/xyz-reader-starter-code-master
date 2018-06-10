@@ -1,210 +1,224 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:1:1-48:12
-MERGED from [com.android.support:support-v13:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/048310a6426d517972579702275ec1a0/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/f67a952de5595f01a1b9be0b79950335/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-v4:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/43c6454d46fbf05c43dc8509e4604d0d/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:palette-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/palette-v7-25.3.0.aar/104f2445ebe0c94c438e06e7b6ef40a2/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.0.aar/39b3d76b2449855b462dc536e386e465/AndroidManifest.xml:17:1-26:12
-MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/68a291f37c23d1db20b585cb74ac53b0/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-fragment:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/59b004db2e84128ff25118ed9cba1358/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/fe67af3e425ec1f2f6d5c442521103de/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/5e041dd5b78f740cfec406084c7675d8/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/2a2b0b58037dd1af59f36900afb3f001/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/a13ea3ab5fc5b14814ea654b20b7a3b3/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/27fec3c6689f776c031be72098ca0b3d/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/0ffc072bc4db6eccb3c5b898f6b2794e/AndroidManifest.xml:17:1-31:12
-INJECTED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:1:1-48:12
+ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from [com.android.support:design:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/design-25.3.0.aar/ee4d1a0ce97ded2efbf0eeb238b3dbb9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-v13:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/7c583e49d841495a95f963152f8b8bd5/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/5c7a34e3bc2e225918674d33eebb476b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/transition-25.3.0.aar/44c836b2f34099b75f3f95002bf5303d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/603445ee5c4ac9c7603f709ccb8a704f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:palette-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/palette-v7-25.3.0.aar/d9e95a11e62a31612ac860665c07b2f2/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.0.aar/0ced6188689acaf572dce4f9fe6727e5/AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/58b572c42d49e715cc4ecce3d35074f3/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/24238f4e2ad70809f2f3b017826f9c42/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/acd66d7971d4dc1f2d8afc1d5bc87879/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/359f6469f8d63dd95f12952612921a61/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/d88026b985297cffd0c0b3610d8b32e5/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/ba22ca425d2e89b4b3b62025627899af/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/1fec154e26c6e1d1093ad119ee880774/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/8f4ebbb79e2ef56c24de28e5b9d8bf1d/AndroidManifest.xml:17:1-31:12
+INJECTED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:1:1-48:12
 	package
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:2:5-36
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:2:5-36
 	android:versionName
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:4:5-30
-		INJECTED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
-		INJECTED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
+		INJECTED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:1:11-69
 	android:versionCode
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:3:5-28
-		INJECTED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
-		INJECTED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
+		INJECTED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:6:5-67
+ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:7:5-81
+ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:7:22-78
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:7:22-78
 uses-permission#android.permission.BROADCAST_STICKY
-ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:8:5-75
+ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:8:5-75
 	android:name
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:8:22-72
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:8:22-72
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:9:5-79
+ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:9:22-76
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:9:22-76
 application
-ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:11:5-46:19
-MERGED from [com.android.support:support-v13:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/048310a6426d517972579702275ec1a0/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v13:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/048310a6426d517972579702275ec1a0/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/f67a952de5595f01a1b9be0b79950335/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/f67a952de5595f01a1b9be0b79950335/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/43c6454d46fbf05c43dc8509e4604d0d/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/43c6454d46fbf05c43dc8509e4604d0d/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:palette-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/palette-v7-25.3.0.aar/104f2445ebe0c94c438e06e7b6ef40a2/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:palette-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/palette-v7-25.3.0.aar/104f2445ebe0c94c438e06e7b6ef40a2/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/68a291f37c23d1db20b585cb74ac53b0/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/68a291f37c23d1db20b585cb74ac53b0/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-fragment:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/59b004db2e84128ff25118ed9cba1358/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/59b004db2e84128ff25118ed9cba1358/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/fe67af3e425ec1f2f6d5c442521103de/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/fe67af3e425ec1f2f6d5c442521103de/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/5e041dd5b78f740cfec406084c7675d8/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/5e041dd5b78f740cfec406084c7675d8/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/2a2b0b58037dd1af59f36900afb3f001/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/2a2b0b58037dd1af59f36900afb3f001/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/a13ea3ab5fc5b14814ea654b20b7a3b3/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/a13ea3ab5fc5b14814ea654b20b7a3b3/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/27fec3c6689f776c031be72098ca0b3d/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/27fec3c6689f776c031be72098ca0b3d/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/0ffc072bc4db6eccb3c5b898f6b2794e/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/0ffc072bc4db6eccb3c5b898f6b2794e/AndroidManifest.xml:29:5-20
+ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:11:5-46:19
+MERGED from [com.android.support:design:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/design-25.3.0.aar/ee4d1a0ce97ded2efbf0eeb238b3dbb9/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/design-25.3.0.aar/ee4d1a0ce97ded2efbf0eeb238b3dbb9/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v13:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/7c583e49d841495a95f963152f8b8bd5/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v13:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/7c583e49d841495a95f963152f8b8bd5/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/5c7a34e3bc2e225918674d33eebb476b/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/5c7a34e3bc2e225918674d33eebb476b/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/transition-25.3.0.aar/44c836b2f34099b75f3f95002bf5303d/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/transition-25.3.0.aar/44c836b2f34099b75f3f95002bf5303d/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/603445ee5c4ac9c7603f709ccb8a704f/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/603445ee5c4ac9c7603f709ccb8a704f/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:palette-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/palette-v7-25.3.0.aar/d9e95a11e62a31612ac860665c07b2f2/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:palette-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/palette-v7-25.3.0.aar/d9e95a11e62a31612ac860665c07b2f2/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/58b572c42d49e715cc4ecce3d35074f3/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/58b572c42d49e715cc4ecce3d35074f3/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/24238f4e2ad70809f2f3b017826f9c42/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/24238f4e2ad70809f2f3b017826f9c42/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/acd66d7971d4dc1f2d8afc1d5bc87879/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/acd66d7971d4dc1f2d8afc1d5bc87879/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/359f6469f8d63dd95f12952612921a61/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/359f6469f8d63dd95f12952612921a61/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/d88026b985297cffd0c0b3610d8b32e5/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/d88026b985297cffd0c0b3610d8b32e5/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/ba22ca425d2e89b4b3b62025627899af/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/ba22ca425d2e89b4b3b62025627899af/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/1fec154e26c6e1d1093ad119ee880774/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/1fec154e26c6e1d1093ad119ee880774/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/8f4ebbb79e2ef56c24de28e5b9d8bf1d/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/8f4ebbb79e2ef56c24de28e5b9d8bf1d/AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:14:9-41
 	android:icon
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:13:9-43
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:15:9-43
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:15:9-43
 activity#com.example.xyzreader.ui.ArticleListActivity
-ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:17:9-24:20
+ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:17:9-24:20
 	android:label
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:19:13-45
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:19:13-45
 	android:name
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:18:13-51
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:20:13-23:29
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:18:13-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:21:17-69
+ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:22:17-77
+ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:22:27-74
 activity#com.example.xyzreader.ui.ArticleDetailActivity
-ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:26:9-37:20
+ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:26:9-37:20
 	android:parentActivityName
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:28:13-65
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:28:13-65
 	android:name
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:27:13-53
-intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
-ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:29:13-33:29
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:27:13-53
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/vnd.com.example.xyzreader.items
+ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:29:13-33:29
 action#android.intent.action.VIEW
-ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:30:17-69
+ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:30:25-66
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:30:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:31:17-76
+ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:31:17-76
 	android:name
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:31:27-73
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:31:27-73
 data
-ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:32:17-100
+ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:32:17-100
 	android:mimeType
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:32:23-97
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:32:23-97
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:34:13-36:59
+ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:34:13-36:59
 	android:value
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:36:17-56
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:36:17-56
 	android:name
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:35:17-63
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:35:17-63
 service#com.example.xyzreader.data.UpdaterService
-ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:39:9-40:40
+ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:39:9-40:40
 	android:exported
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:40:13-37
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:39:18-53
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:39:18-53
 provider#com.example.xyzreader.data.ItemsProvider
-ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:42:9-44:40
+ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:42:9-44:40
 	android:authorities
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:43:13-56
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:43:13-56
 	android:exported
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:44:13-37
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:44:13-37
 	android:name
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:42:19-53
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml:42:19-53
 uses-sdk
-INJECTED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
-INJECTED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
-MERGED from [com.android.support:support-v13:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/048310a6426d517972579702275ec1a0/AndroidManifest.xml:21:5-23:55
-MERGED from [com.android.support:support-v13:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/048310a6426d517972579702275ec1a0/AndroidManifest.xml:21:5-23:55
-MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/f67a952de5595f01a1b9be0b79950335/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/f67a952de5595f01a1b9be0b79950335/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/43c6454d46fbf05c43dc8509e4604d0d/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/43c6454d46fbf05c43dc8509e4604d0d/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:palette-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/palette-v7-25.3.0.aar/104f2445ebe0c94c438e06e7b6ef40a2/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:palette-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/palette-v7-25.3.0.aar/104f2445ebe0c94c438e06e7b6ef40a2/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.0.aar/39b3d76b2449855b462dc536e386e465/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.0.aar/39b3d76b2449855b462dc536e386e465/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/68a291f37c23d1db20b585cb74ac53b0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/68a291f37c23d1db20b585cb74ac53b0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-fragment:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/59b004db2e84128ff25118ed9cba1358/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/59b004db2e84128ff25118ed9cba1358/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/fe67af3e425ec1f2f6d5c442521103de/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/fe67af3e425ec1f2f6d5c442521103de/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/5e041dd5b78f740cfec406084c7675d8/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/5e041dd5b78f740cfec406084c7675d8/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/2a2b0b58037dd1af59f36900afb3f001/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/2a2b0b58037dd1af59f36900afb3f001/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/a13ea3ab5fc5b14814ea654b20b7a3b3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/a13ea3ab5fc5b14814ea654b20b7a3b3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/27fec3c6689f776c031be72098ca0b3d/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/27fec3c6689f776c031be72098ca0b3d/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/0ffc072bc4db6eccb3c5b898f6b2794e/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/0ffc072bc4db6eccb3c5b898f6b2794e/AndroidManifest.xml:21:5-23:58
-INJECTED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
-INJECTED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
+INJECTED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
+INJECTED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/design-25.3.0.aar/ee4d1a0ce97ded2efbf0eeb238b3dbb9/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/design-25.3.0.aar/ee4d1a0ce97ded2efbf0eeb238b3dbb9/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:support-v13:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/7c583e49d841495a95f963152f8b8bd5/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:support-v13:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/7c583e49d841495a95f963152f8b8bd5/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/5c7a34e3bc2e225918674d33eebb476b/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/5c7a34e3bc2e225918674d33eebb476b/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/transition-25.3.0.aar/44c836b2f34099b75f3f95002bf5303d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/transition-25.3.0.aar/44c836b2f34099b75f3f95002bf5303d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/603445ee5c4ac9c7603f709ccb8a704f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/603445ee5c4ac9c7603f709ccb8a704f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:palette-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/palette-v7-25.3.0.aar/d9e95a11e62a31612ac860665c07b2f2/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/palette-v7-25.3.0.aar/d9e95a11e62a31612ac860665c07b2f2/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.0.aar/0ced6188689acaf572dce4f9fe6727e5/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.0.aar/0ced6188689acaf572dce4f9fe6727e5/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/58b572c42d49e715cc4ecce3d35074f3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/58b572c42d49e715cc4ecce3d35074f3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/24238f4e2ad70809f2f3b017826f9c42/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/24238f4e2ad70809f2f3b017826f9c42/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/acd66d7971d4dc1f2d8afc1d5bc87879/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/acd66d7971d4dc1f2d8afc1d5bc87879/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/359f6469f8d63dd95f12952612921a61/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/359f6469f8d63dd95f12952612921a61/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/d88026b985297cffd0c0b3610d8b32e5/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/d88026b985297cffd0c0b3610d8b32e5/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/ba22ca425d2e89b4b3b62025627899af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/ba22ca425d2e89b4b3b62025627899af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/1fec154e26c6e1d1093ad119ee880774/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/1fec154e26c6e1d1093ad119ee880774/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/8f4ebbb79e2ef56c24de28e5b9d8bf1d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/8f4ebbb79e2ef56c24de28e5b9d8bf1d/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
+INJECTED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v13:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/048310a6426d517972579702275ec1a0/AndroidManifest.xml:23:9-52
+		ADDED from [com.android.support:design:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/design-25.3.0.aar/ee4d1a0ce97ded2efbf0eeb238b3dbb9/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
-		INJECTED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
+		INJECTED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
+		INJECTED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
-		ADDED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
-		INJECTED from /Users/ctyeung/Desktop/XYZReader/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
+		INJECTED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
+		ADDED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
+		INJECTED from /Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:support-v13:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/048310a6426d517972579702275ec1a0/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/f67a952de5595f01a1b9be0b79950335/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/f67a952de5595f01a1b9be0b79950335/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/43c6454d46fbf05c43dc8509e4604d0d/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/43c6454d46fbf05c43dc8509e4604d0d/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:palette-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/palette-v7-25.3.0.aar/104f2445ebe0c94c438e06e7b6ef40a2/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:palette-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/palette-v7-25.3.0.aar/104f2445ebe0c94c438e06e7b6ef40a2/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.0.aar/39b3d76b2449855b462dc536e386e465/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.0.aar/39b3d76b2449855b462dc536e386e465/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/68a291f37c23d1db20b585cb74ac53b0/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/68a291f37c23d1db20b585cb74ac53b0/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-fragment:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/59b004db2e84128ff25118ed9cba1358/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/59b004db2e84128ff25118ed9cba1358/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/fe67af3e425ec1f2f6d5c442521103de/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/fe67af3e425ec1f2f6d5c442521103de/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/5e041dd5b78f740cfec406084c7675d8/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/5e041dd5b78f740cfec406084c7675d8/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/2a2b0b58037dd1af59f36900afb3f001/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/2a2b0b58037dd1af59f36900afb3f001/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/a13ea3ab5fc5b14814ea654b20b7a3b3/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/a13ea3ab5fc5b14814ea654b20b7a3b3/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/27fec3c6689f776c031be72098ca0b3d/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/27fec3c6689f776c031be72098ca0b3d/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/0ffc072bc4db6eccb3c5b898f6b2794e/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/0ffc072bc4db6eccb3c5b898f6b2794e/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/design-25.3.0.aar/ee4d1a0ce97ded2efbf0eeb238b3dbb9/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v13:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/7c583e49d841495a95f963152f8b8bd5/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v13:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/7c583e49d841495a95f963152f8b8bd5/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/5c7a34e3bc2e225918674d33eebb476b/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/5c7a34e3bc2e225918674d33eebb476b/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/transition-25.3.0.aar/44c836b2f34099b75f3f95002bf5303d/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/transition-25.3.0.aar/44c836b2f34099b75f3f95002bf5303d/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/603445ee5c4ac9c7603f709ccb8a704f/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/603445ee5c4ac9c7603f709ccb8a704f/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:palette-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/palette-v7-25.3.0.aar/d9e95a11e62a31612ac860665c07b2f2/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:palette-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/palette-v7-25.3.0.aar/d9e95a11e62a31612ac860665c07b2f2/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.0.aar/0ced6188689acaf572dce4f9fe6727e5/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.0.aar/0ced6188689acaf572dce4f9fe6727e5/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/58b572c42d49e715cc4ecce3d35074f3/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/58b572c42d49e715cc4ecce3d35074f3/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/24238f4e2ad70809f2f3b017826f9c42/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/24238f4e2ad70809f2f3b017826f9c42/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/acd66d7971d4dc1f2d8afc1d5bc87879/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.0.aar/acd66d7971d4dc1f2d8afc1d5bc87879/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/359f6469f8d63dd95f12952612921a61/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/359f6469f8d63dd95f12952612921a61/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/d88026b985297cffd0c0b3610d8b32e5/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/d88026b985297cffd0c0b3610d8b32e5/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/ba22ca425d2e89b4b3b62025627899af/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/ba22ca425d2e89b4b3b62025627899af/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/1fec154e26c6e1d1093ad119ee880774/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/1fec154e26c6e1d1093ad119ee880774/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/8f4ebbb79e2ef56c24de28e5b9d8bf1d/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/8f4ebbb79e2ef56c24de28e5b9d8bf1d/AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:support-v13:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/048310a6426d517972579702275ec1a0/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/design-25.3.0.aar/ee4d1a0ce97ded2efbf0eeb238b3dbb9/AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:support-v13:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/048310a6426d517972579702275ec1a0/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.0] /Users/ctyeung/.gradle/caches/transforms-1/files-1.1/design-25.3.0.aar/ee4d1a0ce97ded2efbf0eeb238b3dbb9/AndroidManifest.xml:26:9-47
