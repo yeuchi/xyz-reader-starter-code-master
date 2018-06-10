@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jun 10 16:26:04 CDT 2018
+#Sun Jun 10 17:04:00 CDT 2018
 2.base=/Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/build/intermediates/transforms/dexMerger/debug/14
 5.set=DEX
 0.path=classes.dex

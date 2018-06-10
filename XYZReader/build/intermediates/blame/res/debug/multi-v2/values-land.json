@@ -16,18 +16,18 @@
                 {
                     "source": "/Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/res/values-land/macro_layout.xml",
                     "from": {
-                        "startLines": "3,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "88,36",
-                        "endColumns": "57,51",
-                        "endOffsets": "141,83"
+                        "startLines": "3,2,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "88,36,146",
+                        "endColumns": "57,51,49",
+                        "endOffsets": "141,83,191"
                     },
                     "to": {
-                        "startLines": "6,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "328,386",
-                        "endColumns": "57,51",
-                        "endOffsets": "381,433"
+                        "startLines": "6,7,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "328,386,438",
+                        "endColumns": "57,51,49",
+                        "endOffsets": "381,433,483"
                     }
                 },
                 {
@@ -41,12 +41,12 @@
                         "endOffsets": "232"
                     },
                     "to": {
-                        "startLines": "8",
+                        "startLines": "9",
                         "startColumns": "4",
-                        "startOffsets": "438",
-                        "endLines": "11",
+                        "startOffsets": "488",
+                        "endLines": "12",
                         "endColumns": "12",
-                        "endOffsets": "615"
+                        "endOffsets": "665"
                     }
                 }
             ]
