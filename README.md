@@ -61,3 +61,6 @@ https://github.com/udacity/xyz-reader-starter-code
 #### Material design specification
 https://material.io/design/introduction/
 
+### JSON data
+https://go.udacity.com/xyz-reader-json
+
