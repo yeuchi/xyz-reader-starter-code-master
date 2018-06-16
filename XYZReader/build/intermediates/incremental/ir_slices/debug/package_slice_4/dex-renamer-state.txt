@@ -1,4 +1,4 @@
-#Sun Jun 10 16:17:57 CDT 2018
-base.0=/Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/build/intermediates/transforms/dexMerger/debug/5
+#Sun Jun 10 19:09:21 CDT 2018
+base.0=/Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/build/intermediates/transforms/dexMerger/debug/4
 path.0=classes.dex
 renamed.0=classes.dex

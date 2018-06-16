@@ -20,6 +20,8 @@ import android.util.TypedValue;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AnimationUtils;
+import android.view.animation.Interpolator;
 import android.widget.TextView;
 
 import com.example.xyzreader.R;
@@ -70,7 +72,36 @@ public class ArticleListActivity extends ActionBarActivity implements
         if (savedInstanceState == null) {
             refresh();
         }
+
+        animateViewsIn();
     }
+
+    private void animateViewsIn() {
+        ViewGroup root = (ViewGroup) findViewById(R.id.swipe_refresh_layout);
+        int count = root.getChildCount();
+        float offset = 600;
+        Interpolator interpolator =
+                AnimationUtils.loadInterpolator(this, android.R.interpolator.linear_out_slow_in);
+
+        // loop over the children setting an increasing translation y but the same animation
+        // duration + interpolation
+        for (int i = 0; i < count; i++) {
+            View view = root.getChildAt(i);
+            view.setVisibility(View.VISIBLE);
+            view.setTranslationY(offset);
+            view.setAlpha(0.85f);
+            // then animate back to natural position
+            view.animate()
+                    .translationY(0f)
+                    .alpha(1f)
+                    .setInterpolator(interpolator)
+                    .setDuration(1000L)
+                    .start();
+            // increase the offset distance for the next view
+            offset *= 1.5f;
+        }
+    }
+
 
     private void refresh() {
         startService(new Intent(this, UpdaterService.class));

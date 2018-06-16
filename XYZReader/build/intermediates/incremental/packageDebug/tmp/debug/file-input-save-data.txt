@@ -1,6 +1,6 @@
 #Internal package file, do not edit.
-#Sun Jun 10 17:04:00 CDT 2018
-2.base=/Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/build/intermediates/transforms/dexMerger/debug/14
+#Sun Jun 10 19:09:22 CDT 2018
+2.base=/Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/build/intermediates/transforms/dexMerger/debug/11
 5.set=DEX
 0.path=classes.dex
 2.baseType=DIRECTORY
@@ -26,6 +26,6 @@ count=7
 0.baseType=DIRECTORY
 3.set=ASSET
 6.path=classes.dex
-1.base=/Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/build/intermediates/transforms/dexMerger/debug/17
+1.base=/Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/build/intermediates/transforms/dexMerger/debug/14
 4.baseType=DIRECTORY
 0.set=DEX
