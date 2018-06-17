@@ -33,6 +33,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import android.net.Uri;
 
 /**
  * An activity representing a list of Articles. This activity has different presentations for
@@ -73,13 +74,13 @@ public class ArticleListActivity extends ActionBarActivity implements
             refresh();
         }
 
-        animateViewsIn();
+        animateViewsIn();   // tween -> slide in the entire list view
     }
 
     private void animateViewsIn() {
         ViewGroup root = (ViewGroup) findViewById(R.id.swipe_refresh_layout);
         int count = root.getChildCount();
-        float offset = 600;
+        float offset = 800;
         Interpolator interpolator =
                 AnimationUtils.loadInterpolator(this, android.R.interpolator.linear_out_slow_in);
 
@@ -176,9 +177,12 @@ public class ArticleListActivity extends ActionBarActivity implements
             final ViewHolder vh = new ViewHolder(view);
             view.setOnClickListener(new View.OnClickListener() {
                 @Override
-                public void onClick(View view) {
-                    startActivity(new Intent(Intent.ACTION_VIEW,
-                            ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition()))));
+                public void onClick(View view)
+                {
+                    Uri uri = ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition()));
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    intent.putExtra(ArticleDetailActivity.EXTRA_CURVE, true);
+                    startActivity(intent);
                 }
             });
             return vh;

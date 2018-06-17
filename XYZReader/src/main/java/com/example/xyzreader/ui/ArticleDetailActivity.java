@@ -26,6 +26,8 @@ import com.example.xyzreader.data.ItemsContract;
 public class ArticleDetailActivity extends ActionBarActivity
         implements LoaderManager.LoaderCallbacks<Cursor> {
 
+    public static final String EXTRA_CURVE = "EXTRA_CURVE";
+
     private Cursor mCursor;
     private long mStartId;
 
