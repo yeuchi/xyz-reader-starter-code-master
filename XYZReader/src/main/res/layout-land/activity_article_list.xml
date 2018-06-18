@@ -44,7 +44,8 @@
                 android:layout_gravity="bottom"
                 android:layout_marginLeft="@dimen/list_toolbar_side_margin"
                 android:layout_marginRight="@dimen/list_toolbar_side_margin"
-                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:background="@drawable/gradient_land">
 
                 <ImageView
                     android:layout_width="140dp"
@@ -53,7 +54,8 @@
                     android:layout_alignParentEnd="true"
                     android:layout_centerInParent="true"
                     android:contentDescription="@string/app_name"
-                    android:src="@drawable/logo_land" />
+                    android:src="@drawable/logo_land"/>
+
             </android.support.v7.widget.Toolbar>
 
         </android.support.design.widget.CollapsingToolbarLayout>
