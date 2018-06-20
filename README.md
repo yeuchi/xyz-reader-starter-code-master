@@ -38,14 +38,16 @@ Spend time exploring the current state of the app, looking for ways it could be 
 
 ## Implementation Details
 
-- Add background image
-- Add Collaping app toolbar: reduces height when user swipes book selection.
-<img src="https://user-images.githubusercontent.com/1282659/41631630-55a17364-73fb-11e8-809f-3656fe5c7c58.png" width="250"><img src="https://user-images.githubusercontent.com/1282659/41631631-55b6e35c-73fb-11e8-835c-e6ab1b377ec3.png" width="250">
-
-- Add Left justified app toolbar
+1. Add Left justified app toolbar
 <img src="https://user-images.githubusercontent.com/1282659/41631629-55845b3a-73fb-11e8-9ef0-a5888fc20ed7.png" width="450">
 
-- Add background gradient overlay for text visibility (regardless of image content)
+2. Add background image
+3. Add Collaping app toolbar: reduces height when user swipes book selection.
+
+<img src="https://user-images.githubusercontent.com/1282659/41631630-55a17364-73fb-11e8-809f-3656fe5c7c58.png" width="250"><img src="https://user-images.githubusercontent.com/1282659/41631631-55b6e35c-73fb-11e8-835c-e6ab1b377ec3.png" width="250">
+
+4. Add background gradient overlay for text visibility (regardless of image content)
+
 <img src="https://user-images.githubusercontent.com/1282659/41631849-8e17be32-73fc-11e8-9935-ca39c8fbca58.png" width="120"><img src="https://user-images.githubusercontent.com/1282659/41631850-8e36306a-73fc-11e8-8e2e-4f97f543cb67.png" width="120">
 <img src="https://user-images.githubusercontent.com/1282659/41631851-8e4f2f5c-73fc-11e8-9899-1d1d4e9bcd04.png" width="250"><img src="https://user-images.githubusercontent.com/1282659/41631852-8e75c806-73fc-11e8-9f55-fc003c958e41.png" width="250">
 
