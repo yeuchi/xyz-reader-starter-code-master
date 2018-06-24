@@ -36,7 +36,7 @@ Your job will be to take the user feedback in the UI Review node, and implement 
 ## Required Tasks
 Spend time exploring the current state of the app, looking for ways it could be improved. The app will need multiple improvements. Be sure to look specifically at issues called out in the UI Review.
 
-## Implementation Details
+## Enhancement Details
 
 1. Add Left justified app toolbar.
 <img src="https://user-images.githubusercontent.com/1282659/41631629-55845b3a-73fb-11e8-9ef0-a5888fc20ed7.png" width="450">
@@ -53,6 +53,9 @@ Spend time exploring the current state of the app, looking for ways it could be 
 
 5. Add vertical tween (coordinated motion) to RecyclerView (Book list) on main activity.
 6. Add curve tween (coordinated motion) to thumbnail for transition between main -> detail activity.
+7. Add background gradient overlay on detail page for thumbnail visibility.
+
+<img src="https://user-images.githubusercontent.com/1282659/41814851-4b9d5708-771f-11e8-868f-36e3aa4ee5e4.png" width="200"><img src="https://user-images.githubusercontent.com/1282659/41814853-4d1cb768-771f-11e8-81ed-7bfa87c6e32e.png" width="400">
 
 ## Rubric 
 - App uses the Design Support library and its provided widget types 
