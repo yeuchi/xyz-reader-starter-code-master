@@ -1,6 +1,9 @@
 package com.example.xyzreader.ui;
 
+import android.app.Activity;
 import android.app.LoaderManager;
+import android.os.Bundle;
+import android.app.ActivityOptions;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -54,11 +57,13 @@ public class ArticleListActivity extends ActionBarActivity implements
     private SimpleDateFormat outputFormat = new SimpleDateFormat();
     // Most time functions can only handle 1902 - 2037
     private GregorianCalendar START_OF_EPOCH = new GregorianCalendar(2,1,1);
+    private Activity thisActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_article_list);
+        thisActivity = this;
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
 
@@ -182,7 +187,11 @@ public class ArticleListActivity extends ActionBarActivity implements
                     Uri uri = ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition()));
                     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                     intent.putExtra(ArticleDetailActivity.EXTRA_CURVE, true);
-                    startActivity(intent);
+                    View thumbnail = view.findViewById(R.id.thumbnail);
+
+                    String name = "photo";//thumbnail.getTransitionName();
+                    ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(thisActivity, thumbnail, name);
+                    startActivity(intent, options.toBundle());
                 }
             });
             return vh;
