@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/Users/ctyeung/Documents/GitHub/xyz-reader-starter-code-master/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
-                {
-                    "source": "/Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/res/values-sw600dp/dimens.xml",
-                    "from": {
-                        "startLines": "3,2,5,4",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "90,36,238,143",
-                        "endColumns": "52,53,41,94",
-                        "endOffsets": "138,85,275,233"
-                    },
-                    "to": {
-                        "startLines": "19,25,26,27",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "1227,1569,1623,1665",
-                        "endColumns": "52,53,41,94",
-                        "endOffsets": "1275,1618,1660,1755"
-                    }
-                },
                 {
                     "source": "/Users/ctyeung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/5c7a34e3bc2e225918674d33eebb476b/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
@@ -31,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/src/main/res/values-sw600dp/macro_layout.xml",
+                    "source": "/Users/ctyeung/Documents/GitHub/xyz-reader-starter-code-master/XYZReader/src/main/res/values-sw600dp/macro_layout.xml",
                     "from": {
                         "startLines": "7,3,4,6,5,2,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -45,6 +28,23 @@
                         "startOffsets": "1170,1280,1335,1392,1458,1517,1823",
                         "endColumns": "56,54,56,65,58,51,49",
                         "endOffsets": "1222,1330,1387,1453,1512,1564,1868"
+                    }
+                },
+                {
+                    "source": "/Users/ctyeung/Documents/GitHub/xyz-reader-starter-code-master/XYZReader/src/main/res/values-sw600dp/dimens.xml",
+                    "from": {
+                        "startLines": "3,2,5,4",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "90,36,238,143",
+                        "endColumns": "52,53,41,94",
+                        "endOffsets": "138,85,275,233"
+                    },
+                    "to": {
+                        "startLines": "19,25,26,27",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1227,1569,1623,1665",
+                        "endColumns": "52,53,41,94",
+                        "endOffsets": "1275,1618,1660,1755"
                     }
                 },
                 {

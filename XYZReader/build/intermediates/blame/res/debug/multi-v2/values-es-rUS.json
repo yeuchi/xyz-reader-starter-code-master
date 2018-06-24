@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml",
+            "outputFile": "/Users/ctyeung/Documents/GitHub/xyz-reader-starter-code-master/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml",
             "map": [
                 {
                     "source": "/Users/ctyeung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/5c7a34e3bc2e225918674d33eebb476b/res/values-es-rUS/values-es-rUS.xml",

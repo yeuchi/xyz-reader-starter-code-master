@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ctyeung/Documents/Udacity/xyz-reader-starter-code-master/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/ctyeung/Documents/GitHub/xyz-reader-starter-code-master/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/Users/ctyeung/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.0.aar/58b572c42d49e715cc4ecce3d35074f3/res/values-v23/values-v23.xml",
