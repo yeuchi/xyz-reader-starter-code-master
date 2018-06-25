@@ -16,7 +16,8 @@ import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowInsets;
-
+import android.view.ViewTreeObserver;
+import android.widget.ImageView;
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
 import com.example.xyzreader.data.ItemsContract;
@@ -109,11 +110,36 @@ public class ArticleDetailActivity extends ActionBarActivity
             }
         }
 
-        boolean curve = getIntent().getBooleanExtra(EXTRA_CURVE, false);
-        getWindow().setSharedElementEnterTransition(TransitionInflater.from(this)
-                .inflateTransition(curve ? R.transition.curve : R.transition.move));
+        // wait for fragment creation before transition
+        postponeEnterTransition();
     }
 
+    private void scheduleStartPostponedTransition(final View sharedElement) {
+        sharedElement.getViewTreeObserver().addOnPreDrawListener(
+                new ViewTreeObserver.OnPreDrawListener() {
+                    @Override
+                    public boolean onPreDraw() {
+                        sharedElement.getViewTreeObserver().removeOnPreDrawListener(this);
+                        startPostponedEnterTransition();
+                        return true;
+                    }
+                });
+
+
+    }
+/*
+    @Override
+    public void onActivityReenter(int resultCode, Intent data) {
+        super.onActivityReenter(resultCode, data);
+
+        // Postpone the shared element return transition.
+        postponeEnterTransition();
+
+        // TODO: Call the "scheduleStartPostponedTransition()" method
+        // above when you know for certain that the shared element is
+        // ready for the transition to begin.
+    }
+*/
     @Override
     public Loader<Cursor> onCreateLoader(int i, Bundle bundle) {
         return ArticleLoader.newAllArticlesInstance(this);
@@ -138,6 +164,14 @@ public class ArticleDetailActivity extends ActionBarActivity
             }
             mStartId = 0;
         }
+
+        //ImageView imageView = (ImageView)findViewById(R.id.photo);
+        //scheduleStartPostponedTransition(imageView);
+
+        startPostponedEnterTransition();
+
+        getWindow().setSharedElementEnterTransition(TransitionInflater.from(this)
+                .inflateTransition(true ? R.transition.curve : R.transition.move));
     }
 
     @Override

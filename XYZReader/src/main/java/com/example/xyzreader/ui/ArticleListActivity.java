@@ -189,7 +189,7 @@ public class ArticleListActivity extends ActionBarActivity implements
                     intent.putExtra(ArticleDetailActivity.EXTRA_CURVE, true);
                     View thumbnail = view.findViewById(R.id.thumbnail);
 
-                    String name = "photo";//thumbnail.getTransitionName();
+                    String name = thumbnail.getTransitionName();
                     ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(thisActivity, thumbnail, name);
                     startActivity(intent, options.toBundle());
                 }
