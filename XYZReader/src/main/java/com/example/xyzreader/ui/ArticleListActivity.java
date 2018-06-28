@@ -184,14 +184,17 @@ public class ArticleListActivity extends ActionBarActivity implements
                 @Override
                 public void onClick(View view)
                 {
+                    View thumbnail = view.findViewById(R.id.thumbnail);
+                    String name = thumbnail.getTransitionName();
+
                     Uri uri = ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition()));
                     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                     intent.putExtra(ArticleDetailActivity.EXTRA_CURVE, true);
-                    View thumbnail = view.findViewById(R.id.thumbnail);
+                    intent.putExtra("NAME", name);
 
-                    String name = thumbnail.getTransitionName();
                     ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(thisActivity, thumbnail, name);
-                    startActivity(intent, options.toBundle());
+                    Bundle bundle = options.toBundle();
+                    startActivity(intent, bundle);
                 }
             });
             return vh;
@@ -228,6 +231,7 @@ public class ArticleListActivity extends ActionBarActivity implements
                         + "<br/>" + " by "
                         + mCursor.getString(ArticleLoader.Query.AUTHOR)));
             }
+            holder.thumbnailView.setTransitionName("photo"+position);
             holder.thumbnailView.setImageUrl(
                     mCursor.getString(ArticleLoader.Query.THUMB_URL),
                     ImageLoaderHelper.getInstance(ArticleListActivity.this).getImageLoader());

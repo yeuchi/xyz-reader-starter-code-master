@@ -10,6 +10,7 @@ import android.graphics.Color;
 import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
+import android.view.ViewTreeObserver;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -261,6 +262,28 @@ public class ArticleDetailFragment extends Fragment implements
             bylineView.setText("N/A" );
             bodyView.setText("N/A");
         }
+/*
+        mPhotoView.getViewTreeObserver().addOnPreDrawListener(
+
+                new ViewTreeObserver.OnPreDrawListener() {
+
+                    @Override
+
+                    public boolean onPreDraw() {
+
+                        //mPhotoView.getViewTreeObserver().removeOnPreDrawListener(this);
+                        //mPhotoView.setTransitionName("photo2");
+
+                        //getActivity().getWindow().setSharedElementEnterTransition(TransitionInflater.from(getActivity())
+                        //        .inflateTransition(true ? R.transition.curve : R.transition.move));
+
+                        //getActivity().startPostponedEnterTransition();
+
+                        return true;
+
+                    }
+
+                }); */
     }
 
     @Override

@@ -114,32 +114,18 @@ public class ArticleDetailActivity extends ActionBarActivity
         postponeEnterTransition();
     }
 
-    private void scheduleStartPostponedTransition(final View sharedElement) {
-        sharedElement.getViewTreeObserver().addOnPreDrawListener(
-                new ViewTreeObserver.OnPreDrawListener() {
-                    @Override
-                    public boolean onPreDraw() {
-                        sharedElement.getViewTreeObserver().removeOnPreDrawListener(this);
-                        startPostponedEnterTransition();
-                        return true;
-                    }
-                });
+        private void scheduleStartPostponedTransition(final View sharedElement) {
+            sharedElement.getViewTreeObserver().addOnPreDrawListener(
+                    new ViewTreeObserver.OnPreDrawListener() {
+                        @Override
+                        public boolean onPreDraw() {
+                            sharedElement.getViewTreeObserver().removeOnPreDrawListener(this);
+                            startPostponedEnterTransition();
+                            return true;
+                        }
+                    });
+        }
 
-
-    }
-/*
-    @Override
-    public void onActivityReenter(int resultCode, Intent data) {
-        super.onActivityReenter(resultCode, data);
-
-        // Postpone the shared element return transition.
-        postponeEnterTransition();
-
-        // TODO: Call the "scheduleStartPostponedTransition()" method
-        // above when you know for certain that the shared element is
-        // ready for the transition to begin.
-    }
-*/
     @Override
     public Loader<Cursor> onCreateLoader(int i, Bundle bundle) {
         return ArticleLoader.newAllArticlesInstance(this);
@@ -165,13 +151,21 @@ public class ArticleDetailActivity extends ActionBarActivity
             mStartId = 0;
         }
 
-        //ImageView imageView = (ImageView)findViewById(R.id.photo);
-        //scheduleStartPostponedTransition(imageView);
+        Bundle bundle = getIntent().getExtras();
+        String name = bundle.getString("NAME");
 
-        startPostponedEnterTransition();
+        ImageView imageView = (ImageView)findViewById(R.id.photo);
+        if(null!=imageView)
+        {
+            imageView.setTransitionName(name);
 
-        getWindow().setSharedElementEnterTransition(TransitionInflater.from(this)
-                .inflateTransition(true ? R.transition.curve : R.transition.move));
+            getWindow().setSharedElementEnterTransition(TransitionInflater.from(this)
+                    .inflateTransition(true ? R.transition.curve : R.transition.move));
+
+            //startPostponedEnterTransition();
+            scheduleStartPostponedTransition(imageView);
+        }
+
     }
 
     @Override

@@ -23,7 +23,7 @@
             android:layout_height="100dp"
             android:background="@color/photo_placeholder"
             android:layout_margin="10dp"
-            android:transitionName="photo"/>
+            android:transitionName="photo2"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
