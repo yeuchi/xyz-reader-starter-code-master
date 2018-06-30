@@ -112,7 +112,8 @@ public class ArticleDetailActivity extends ActionBarActivity
         }
 
         Bundle bundle = getIntent().getExtras();
-        mPhotoTransitionName = bundle.getString("NAME");
+        String key = getString(R.string.transition_name);
+        mPhotoTransitionName = bundle.getString(key);
 
         // wait for fragment creation before transition
         postponeEnterTransition();

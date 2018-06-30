@@ -1022,8 +1022,10 @@ int string path_password_eye_mask_visible 0x7f0e0029
 int string path_password_strike_through 0x7f0e002a
 int string search_menu_title 0x7f0e002b
 int string status_bar_notification_info_overflow 0x7f0e002c
-int string up 0x7f0e002d
-int string welcome_xyz_reader 0x7f0e002e
+int string transition_name 0x7f0e002d
+int string transition_name_prefix 0x7f0e002e
+int string up 0x7f0e002f
+int string welcome_xyz_reader 0x7f0e0030
 int style AlertDialog_AppCompat 0x7f0f0000
 int style AlertDialog_AppCompat_Light 0x7f0f0001
 int style Animation_AppCompat_Dialog 0x7f0f0002
