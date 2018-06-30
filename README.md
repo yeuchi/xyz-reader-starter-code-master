@@ -46,6 +46,8 @@ Spend time exploring the current state of the app, looking for ways it could be 
 
 <img src="https://user-images.githubusercontent.com/1282659/41631630-55a17364-73fb-11e8-809f-3656fe5c7c58.png" width="243"><img src="https://user-images.githubusercontent.com/1282659/41631631-55b6e35c-73fb-11e8-835c-e6ab1b377ec3.png" width="250">
 
+<img src="https://user-images.githubusercontent.com/1282659/42129451-70be2722-7c8a-11e8-8fe0-515b5ba9d9c7.png" width="250"><img src="https://user-images.githubusercontent.com/1282659/42129452-734e27e4-7c8a-11e8-90c1-808492505ae8.png" width="450">
+
 4. Add background gradient overlay for text visibility (regardless of image content).
 
 <img src="https://user-images.githubusercontent.com/1282659/41631849-8e17be32-73fc-11e8-9935-ca39c8fbca58.png" width="120"><img src="https://user-images.githubusercontent.com/1282659/41631850-8e36306a-73fc-11e8-8e2e-4f97f543cb67.png" width="120">
@@ -56,6 +58,8 @@ Spend time exploring the current state of the app, looking for ways it could be 
 7. Add background gradient overlay on detail page for thumbnail visibility.
 
 <img src="https://user-images.githubusercontent.com/1282659/41814851-4b9d5708-771f-11e8-868f-36e3aa4ee5e4.png" width="200"><img src="https://user-images.githubusercontent.com/1282659/41814853-4d1cb768-771f-11e8-81ed-7bfa87c6e32e.png" width="400">
+
+<img src="https://user-images.githubusercontent.com/1282659/42129450-70afed4c-7c8a-11e8-8b2a-d470ac0f347c.png" width="250"><img src="https://user-images.githubusercontent.com/1282659/42129453-755f16d8-7c8a-11e8-8edd-0f4d165eb005.png" width="450">
 
 ## Rubric 
 - App uses the Design Support library and its provided widget types 
@@ -85,3 +89,5 @@ https://material.io/design/introduction/
 ### JSON data
 https://go.udacity.com/xyz-reader-json
 
+### Instructor Nico's recommendations
+https://discussions.udacity.com/t/fragment-transition-animation/353502/8
