@@ -89,3 +89,5 @@ https://material.io/design/introduction/
 ### JSON data
 https://go.udacity.com/xyz-reader-json
 
+### Instructor Nico's recommendations
+https://discussions.udacity.com/t/fragment-transition-animation/353502/8
