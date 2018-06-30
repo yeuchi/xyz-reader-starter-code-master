@@ -1726,11 +1726,11 @@
                 {
                     "source": "/Users/ctyeung/Documents/GitHub/xyz-reader-starter-code-master/XYZReader/src/main/res/values-sw600dp-land/macro_layout.xml",
                     "from": {
-                        "startLines": "-1,5,4,3",
-                        "startColumns": "-1,4,4,4",
-                        "startOffsets": "-1,182,130,80",
-                        "endColumns": "-1,54,51,49",
-                        "endOffsets": "-1,232,177,125"
+                        "startLines": "2,5,4,3",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "36,182,130,80",
+                        "endColumns": "43,54,51,49",
+                        "endOffsets": "75,232,177,125"
                     },
                     "to": {
                         "startLines": "2,3,4,5",

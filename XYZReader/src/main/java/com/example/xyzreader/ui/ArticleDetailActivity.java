@@ -41,6 +41,7 @@ public class ArticleDetailActivity extends ActionBarActivity
     private MyPagerAdapter mPagerAdapter;
     private View mUpButtonContainer;
     private View mUpButton;
+    private String mPhotoTransitionName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -110,21 +111,12 @@ public class ArticleDetailActivity extends ActionBarActivity
             }
         }
 
+        Bundle bundle = getIntent().getExtras();
+        mPhotoTransitionName = bundle.getString("NAME");
+
         // wait for fragment creation before transition
         postponeEnterTransition();
     }
-
-        private void scheduleStartPostponedTransition(final View sharedElement) {
-            sharedElement.getViewTreeObserver().addOnPreDrawListener(
-                    new ViewTreeObserver.OnPreDrawListener() {
-                        @Override
-                        public boolean onPreDraw() {
-                            sharedElement.getViewTreeObserver().removeOnPreDrawListener(this);
-                            startPostponedEnterTransition();
-                            return true;
-                        }
-                    });
-        }
 
     @Override
     public Loader<Cursor> onCreateLoader(int i, Bundle bundle) {
@@ -150,22 +142,6 @@ public class ArticleDetailActivity extends ActionBarActivity
             }
             mStartId = 0;
         }
-
-        Bundle bundle = getIntent().getExtras();
-        String name = bundle.getString("NAME");
-
-        ImageView imageView = (ImageView)findViewById(R.id.photo);
-        if(null!=imageView)
-        {
-            imageView.setTransitionName(name);
-
-            getWindow().setSharedElementEnterTransition(TransitionInflater.from(this)
-                    .inflateTransition(true ? R.transition.curve : R.transition.move));
-
-            //startPostponedEnterTransition();
-            scheduleStartPostponedTransition(imageView);
-        }
-
     }
 
     @Override
@@ -204,7 +180,7 @@ public class ArticleDetailActivity extends ActionBarActivity
         @Override
         public Fragment getItem(int position) {
             mCursor.moveToPosition(position);
-            return ArticleDetailFragment.newInstance(mCursor.getLong(ArticleLoader.Query._ID));
+            return ArticleDetailFragment.newInstance(mCursor.getLong(ArticleLoader.Query._ID), mPhotoTransitionName);
         }
 
         @Override

@@ -1,7 +1,9 @@
 package com.example.xyzreader.ui;
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.app.LoaderManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.Loader;
 import android.database.Cursor;
@@ -35,6 +37,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageLoader;
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
+
 
 /**
  * A fragment representing a single Article detail screen. This fragment is
@@ -76,10 +79,12 @@ public class ArticleDetailFragment extends Fragment implements
     public ArticleDetailFragment() {
     }
 
-    public static ArticleDetailFragment newInstance(long itemId) {
+    public static ArticleDetailFragment newInstance(long itemId,
+                                                    String photoTransitionName) {
         Bundle arguments = new Bundle();
         arguments.putLong(ARG_ITEM_ID, itemId);
         ArticleDetailFragment fragment = new ArticleDetailFragment();
+        fragment.setPhotoTransitionName(photoTransitionName);
         fragment.setArguments(arguments);
         return fragment;
     }
@@ -198,6 +203,12 @@ public class ArticleDetailFragment extends Fragment implements
         }
     }
 
+    private String mPhotoTransitionName = "photo";
+    public void setPhotoTransitionName(String name)
+    {
+        mPhotoTransitionName = name;
+    }
+
     private void bindViews() {
         if (mRootView == null) {
             return;
@@ -244,7 +255,10 @@ public class ArticleDetailFragment extends Fragment implements
                             if (bitmap != null) {
                                 Palette p = Palette.generate(bitmap, 12);
                                 mMutedColor = p.getDarkMutedColor(0xFF333333);
+
+                                mPhotoView.setTransitionName(mPhotoTransitionName);
                                 mPhotoView.setImageBitmap(imageContainer.getBitmap());
+
                                 mRootView.findViewById(R.id.meta_bar)
                                         .setBackgroundColor(mMutedColor);
                                 updateStatusBar();
@@ -262,7 +276,10 @@ public class ArticleDetailFragment extends Fragment implements
             bylineView.setText("N/A" );
             bodyView.setText("N/A");
         }
-/*
+
+        if(null==mPhotoView)
+            return;
+
         mPhotoView.getViewTreeObserver().addOnPreDrawListener(
 
                 new ViewTreeObserver.OnPreDrawListener() {
@@ -271,19 +288,18 @@ public class ArticleDetailFragment extends Fragment implements
 
                     public boolean onPreDraw() {
 
-                        //mPhotoView.getViewTreeObserver().removeOnPreDrawListener(this);
-                        //mPhotoView.setTransitionName("photo2");
+                        mPhotoView.getViewTreeObserver().removeOnPreDrawListener(this);
+                        Activity activity = (Activity) mRootView.getContext();
 
-                        //getActivity().getWindow().setSharedElementEnterTransition(TransitionInflater.from(getActivity())
-                        //        .inflateTransition(true ? R.transition.curve : R.transition.move));
+                        activity.getWindow().setSharedElementEnterTransition(TransitionInflater.from(activity)
+                                .inflateTransition(true ? R.transition.curve : R.transition.move));
 
-                        //getActivity().startPostponedEnterTransition();
-
+                        activity.startPostponedEnterTransition();
                         return true;
 
                     }
 
-                }); */
+                });
     }
 
     @Override
