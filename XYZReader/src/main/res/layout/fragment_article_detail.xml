@@ -76,7 +76,7 @@
                         android:textColor="#8fff" />
                 </LinearLayout>
 
-                <TextView
+                <com.example.xyzreader.ui.ExtendedTextView
                     android:id="@+id/article_body"
                     style="?android:attr/textAppearanceMedium"
                     android:layout_width="match_parent"
