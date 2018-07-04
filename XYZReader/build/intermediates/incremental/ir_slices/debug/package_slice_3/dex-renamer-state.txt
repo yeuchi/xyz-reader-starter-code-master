@@ -1,4 +1,0 @@
-#Sat Jun 30 17:47:53 CDT 2018
-base.0=/Users/ctyeung/Documents/GitHub/xyz-reader-starter-code-master/XYZReader/build/intermediates/transforms/dexMerger/debug/4
-path.0=classes.dex
-renamed.0=classes.dex

@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Sat Jun 30 17:47:52 CDT 2018
-0.baseType=DIRECTORY
-0.base=/Users/ctyeung/Documents/GitHub/xyz-reader-starter-code-master/XYZReader/build/intermediates/assets/debug
-0.path=Rosario-Regular.ttf
-0.set=ASSET
-count=1
