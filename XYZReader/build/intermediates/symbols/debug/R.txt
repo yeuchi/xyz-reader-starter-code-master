@@ -940,7 +940,7 @@ int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout activity_article_detail 0x7f0b001b
 int layout activity_article_list 0x7f0b001c
-int layout app_toolbar_list 0x7f0b001d
+int layout article_list 0x7f0b001d
 int layout design_bottom_navigation_item 0x7f0b001e
 int layout design_bottom_sheet_dialog 0x7f0b001f
 int layout design_layout_snackbar 0x7f0b0020
