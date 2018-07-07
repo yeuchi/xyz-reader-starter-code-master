@@ -2,6 +2,9 @@ package com.example.xyzreader.ui;
 
 import android.app.Activity;
 import android.app.LoaderManager;
+import android.content.res.Configuration;
+import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.app.ActivityOptions;
 import android.content.BroadcastReceiver;
@@ -20,13 +23,18 @@ import android.text.Html;
 import android.text.format.DateUtils;
 import android.util.Log;
 import android.util.TypedValue;
+import android.view.Display;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.AnimationUtils;
 import android.view.animation.Interpolator;
 import android.widget.TextView;
-
+/*
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.target.SimpleTarget;
+import com.bumptech.glide.request.transition.Transition;
+*/
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
 import com.example.xyzreader.data.ItemsContract;
@@ -58,6 +66,25 @@ public class ArticleListActivity extends ActionBarActivity implements
     // Most time functions can only handle 1902 - 2037
     private GregorianCalendar START_OF_EPOCH = new GregorianCalendar(2,1,1);
     private Activity thisActivity;
+/*
+    protected void loadLargeImageAssets()
+    {
+        final View toolbarContainerView = findViewById(R.id.toolbar_container);
+        int ot = getResources().getConfiguration().orientation;
+        String path = (ot == Configuration.ORIENTATION_PORTRAIT)?
+                "http://ctyeung.com/Udacity/backlibrary.jpg":
+                "http://ctyeung.com/Udacity/backlibrary_land.jpg";
+
+        Glide.with(this).load(R.drawable.backgroundimage).into(new SimpleTarget<Drawable>() {
+            @Override
+            public void onResourceReady(Drawable resource, Transition<? super Drawable> transition) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+                    toolbarContainerView.setBackground(resource);
+                }
+            }
+        });
+    }
+    */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,8 +94,7 @@ public class ArticleListActivity extends ActionBarActivity implements
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
 
-
-        final View toolbarContainerView = findViewById(R.id.toolbar_container);
+        //loadLargeImageAssets();
 
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
 
