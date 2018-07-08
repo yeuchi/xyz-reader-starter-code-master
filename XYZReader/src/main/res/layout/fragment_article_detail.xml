@@ -16,8 +16,8 @@
             <FrameLayout
                 android:id="@+id/photo_container"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/back_library">
+                android:layout_height="wrap_content">
+               <!-- android:background="@drawable/back_library">-->
                 <!--suppress AndroidLintContentDescription -->
 
                 <View
@@ -27,8 +27,8 @@
 
                 <ImageView
                     android:id="@+id/photo"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:transitionName="photo"
                     android:scaleType="centerCrop"/>
 
