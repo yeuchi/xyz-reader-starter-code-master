@@ -61,6 +61,9 @@ Spend time exploring the current state of the app, looking for ways it could be 
 
 <img src="https://user-images.githubusercontent.com/1282659/42421039-728b4f84-8294-11e8-97c3-6d59ad8ec5d5.png" width="250"><img src="https://user-images.githubusercontent.com/1282659/42421040-74823168-8294-11e8-8048-d3f929548377.png" width="450">
 
+8. FloatingActionButton (FAB)
+<img src="https://user-images.githubusercontent.com/1282659/42421346-ba960814-8299-11e8-9188-fe022b19fa56.png" width="400">
+
 ## Rubric 
 - App uses the Design Support library and its provided widget types 
   (FloatingActionButton, AppBarLayout, SnackBar, etc).
