@@ -55,11 +55,11 @@ Spend time exploring the current state of the app, looking for ways it could be 
 
 5. Add vertical tween (coordinated motion) to RecyclerView (Book list) on main activity.
 6. Add curve tween (coordinated motion) to thumbnail for transition between main -> detail activity.
-7. Add background gradient overlay on detail page for thumbnail visibility.
+7. Full bleed image on detail page.
 
-<img src="https://user-images.githubusercontent.com/1282659/41814851-4b9d5708-771f-11e8-868f-36e3aa4ee5e4.png" width="200"><img src="https://user-images.githubusercontent.com/1282659/41814853-4d1cb768-771f-11e8-81ed-7bfa87c6e32e.png" width="400">
+<img src="https://user-images.githubusercontent.com/1282659/42421037-6eb390ce-8294-11e8-9d52-ac5b893b18b5.png" width="200"><img src="https://user-images.githubusercontent.com/1282659/42421038-70a6effc-8294-11e8-9063-080acd16bf78.png" width="400">
 
-<img src="https://user-images.githubusercontent.com/1282659/42129450-70afed4c-7c8a-11e8-8b2a-d470ac0f347c.png" width="250"><img src="https://user-images.githubusercontent.com/1282659/42129453-755f16d8-7c8a-11e8-8edd-0f4d165eb005.png" width="450">
+<img src="https://user-images.githubusercontent.com/1282659/42421039-728b4f84-8294-11e8-97c3-6d59ad8ec5d5.png" width="250"><img src="https://user-images.githubusercontent.com/1282659/42421040-74823168-8294-11e8-8048-d3f929548377.png" width="450">
 
 ## Rubric 
 - App uses the Design Support library and its provided widget types 
