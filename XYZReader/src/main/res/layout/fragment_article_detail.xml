@@ -20,11 +20,6 @@
                <!-- android:background="@drawable/back_library">-->
                 <!--suppress AndroidLintContentDescription -->
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="130dp"
-                    android:background="@drawable/detail_gradient" />
-
                 <ImageView
                     android:id="@+id/photo"
                     android:layout_width="match_parent"
