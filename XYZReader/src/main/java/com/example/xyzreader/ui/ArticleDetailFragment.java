@@ -58,6 +58,7 @@ public class ArticleDetailFragment extends Fragment implements
     private ObservableScrollView mScrollView;
     private DrawInsetsFrameLayout mDrawInsetsFrameLayout;
     private ColorDrawable mStatusBarColorDrawable;
+    private int mPosition = 0;
 
     private int mTopInset;
     private View mPhotoContainerView;
@@ -80,11 +81,12 @@ public class ArticleDetailFragment extends Fragment implements
     }
 
     public static ArticleDetailFragment newInstance(long itemId,
-                                                    String photoTransitionName) {
+                                                    String photoTransitionName,
+                                                    int position) {
         Bundle arguments = new Bundle();
         arguments.putLong(ARG_ITEM_ID, itemId);
         ArticleDetailFragment fragment = new ArticleDetailFragment();
-        fragment.setPhotoTransitionName(photoTransitionName);
+        fragment.setPhotoTransitionName(photoTransitionName, position);
         fragment.setArguments(arguments);
         return fragment;
     }
@@ -206,9 +208,11 @@ public class ArticleDetailFragment extends Fragment implements
     }
 
     private String mPhotoTransitionName = "photo";
-    public void setPhotoTransitionName(String name)
+    public void setPhotoTransitionName(String name,
+                                       int position)
     {
         mPhotoTransitionName = name;
+        mPosition = position;
     }
 
     private void bindViews() {
@@ -260,7 +264,7 @@ public class ArticleDetailFragment extends Fragment implements
                                 //Palette p = Palette.generate(bitmap, 12);
                                 mMutedColor = p.getDarkMutedColor(0xFF333333);
 
-                                mPhotoView.setTransitionName(mPhotoTransitionName);
+                                mPhotoView.setTransitionName(mPhotoTransitionName+mPosition);
                                 mPhotoView.setImageBitmap(imageContainer.getBitmap());
 
                                 mRootView.findViewById(R.id.meta_bar)

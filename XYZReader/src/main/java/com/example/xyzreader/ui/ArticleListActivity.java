@@ -216,8 +216,10 @@ public class ArticleListActivity extends AppCompatActivity implements
                     Uri uri = ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition()));
                     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                     intent.putExtra(ArticleDetailActivity.EXTRA_CURVE, true);
+
+                    String namePrefix = getString(R.string.transition_name_prefix);
                     String key = getString(R.string.transition_name);
-                    intent.putExtra(key, transitionName);
+                    intent.putExtra(key, namePrefix);
 
                     ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(thisActivity, thumbnail, transitionName);
                     Bundle bundle = options.toBundle();

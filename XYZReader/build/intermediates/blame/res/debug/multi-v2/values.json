@@ -23,20 +23,20 @@
                 {
                     "source": "/Users/ctyeung/Documents/GitHub/xyz-reader-starter-code-master/XYZReader/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "19,23",
+                        "startLines": "19,27",
                         "startColumns": "4,4",
-                        "startOffsets": "706,867",
-                        "endLines": "21,28",
+                        "startOffsets": "706,1138",
+                        "endLines": "25,28",
                         "endColumns": "12,12",
-                        "endOffsets": "861,1184"
+                        "endOffsets": "1132,1184"
                     },
                     "to": {
-                        "startLines": "1969,1972",
+                        "startLines": "1969,1976",
                         "startColumns": "4,4",
-                        "startOffsets": "141986,142146",
-                        "endLines": "1971,1977",
+                        "startOffsets": "141986,142417",
+                        "endLines": "1975,1977",
                         "endColumns": "12,12",
-                        "endOffsets": "142141,142463"
+                        "endOffsets": "142412,142463"
                     }
                 },
                 {

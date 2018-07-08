@@ -49,7 +49,7 @@ public class MyPagerAdapter extends FragmentStatePagerAdapter
     @Override
     public Fragment getItem(int position) {
         mCursor.moveToPosition(position);
-        return ArticleDetailFragment.newInstance(mCursor.getLong(ArticleLoader.Query._ID), mPhotoTransitionName);
+        return ArticleDetailFragment.newInstance(mCursor.getLong(ArticleLoader.Query._ID), mPhotoTransitionName, position);
     }
 
     @Override
