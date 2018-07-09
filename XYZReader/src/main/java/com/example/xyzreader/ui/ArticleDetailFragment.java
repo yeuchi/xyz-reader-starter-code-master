@@ -226,13 +226,15 @@ public class ArticleDetailFragment extends Fragment implements
         ExtendedTextView bodyView = (ExtendedTextView) mRootView.findViewById(R.id.article_body);
         bodyView.setTypeface(Typeface.createFromAsset(getResources().getAssets(), "Rosario-Regular.ttf"));
 
-        if (mCursor != null) {
+        if (mCursor != null)
+        {
             mRootView.setAlpha(0);
             mRootView.setVisibility(View.VISIBLE);
             mRootView.animate().alpha(1);
             titleView.setText(mCursor.getString(ArticleLoader.Query.TITLE));
             Date publishedDate = parsePublishedDate();
-            if (!publishedDate.before(START_OF_EPOCH.getTime())) {
+            if (!publishedDate.before(START_OF_EPOCH.getTime()))
+            {
                 bylineView.setText(Html.fromHtml(
                         DateUtils.getRelativeTimeSpanString(
                                 publishedDate.getTime(),
@@ -242,7 +244,9 @@ public class ArticleDetailFragment extends Fragment implements
                                 + mCursor.getString(ArticleLoader.Query.AUTHOR)
                                 + "</font>"));
 
-            } else {
+            }
+            else
+                {
                 // If date is before 1902, just show the string
                 bylineView.setText(Html.fromHtml(
                         outputFormat.format(publishedDate) + " by <font color='#ffffff'>"
@@ -263,10 +267,7 @@ public class ArticleDetailFragment extends Fragment implements
                                 Palette p = Palette.from(bitmap).generate();
                                 //Palette p = Palette.generate(bitmap, 12);
                                 mMutedColor = p.getDarkMutedColor(0xFF333333);
-
-                                mPhotoView.setTransitionName(mPhotoTransitionName+mPosition);
                                 mPhotoView.setImageBitmap(imageContainer.getBitmap());
-
                                 mRootView.findViewById(R.id.meta_bar)
                                         .setBackgroundColor(mMutedColor);
                                 updateStatusBar();
@@ -278,36 +279,38 @@ public class ArticleDetailFragment extends Fragment implements
 
                         }
                     });
-        } else {
+
+            // just in case...
+            if(null==mPhotoView)
+                return;
+
+            mPhotoView.getViewTreeObserver().addOnPreDrawListener(
+
+                    new ViewTreeObserver.OnPreDrawListener() {
+
+                        @Override
+
+                        public boolean onPreDraw() {
+                            mPhotoView.setTransitionName(mPhotoTransitionName+mPosition);
+                            mPhotoView.getViewTreeObserver().removeOnPreDrawListener(this);
+                            Activity activity = (Activity) mRootView.getContext();
+
+                            activity.getWindow().setSharedElementEnterTransition(TransitionInflater.from(activity)
+                                    .inflateTransition(true ? R.transition.curve : R.transition.move));
+
+                            activity.startPostponedEnterTransition();
+                            return true;
+
+                        }
+
+                    });
+        }
+        else {
             mRootView.setVisibility(View.GONE);
             titleView.setText("N/A");
             bylineView.setText("N/A" );
             bodyView.setText("N/A");
         }
-
-        if(null==mPhotoView)
-            return;
-
-        mPhotoView.getViewTreeObserver().addOnPreDrawListener(
-
-                new ViewTreeObserver.OnPreDrawListener() {
-
-                    @Override
-
-                    public boolean onPreDraw() {
-
-                        mPhotoView.getViewTreeObserver().removeOnPreDrawListener(this);
-                        Activity activity = (Activity) mRootView.getContext();
-
-                        activity.getWindow().setSharedElementEnterTransition(TransitionInflater.from(activity)
-                                .inflateTransition(true ? R.transition.curve : R.transition.move));
-
-                        activity.startPostponedEnterTransition();
-                        return true;
-
-                    }
-
-                });
     }
 
     @Override
